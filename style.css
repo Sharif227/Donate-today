@@ -11,7 +11,7 @@ body
     height: 750px;
     left: 0px;
     top: 0px;
-    background-image: url(donation12.png);
+    background-image: url(donation.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,21 +104,7 @@ CSS .donation-part{
     width: 770px;
 }
 
-.main-button {
-    padding: 16px 12px;
-    width: 160px;
-    height: 56px;
-    background: #FF5959;
-    border-radius: 5px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 30px;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+
 
 .updates{
     
@@ -178,7 +164,29 @@ CSS .donation-part{
     margin-top: 60px;
 }
 
-
+/* bonus */
+.bonus{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.parent img{
+    width: 80%;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.child{
+    width: 50%;
+}
+.bonus-paragraph{
+    font-size: 30px;
+}
 footer{
     margin: 0 auto;
     height:180px;
